@@ -18,4 +18,3 @@
 # print (spaces(10,"CC..CCC..C",".CC..CC..C"))
 
 
-print (happy birthday!)
