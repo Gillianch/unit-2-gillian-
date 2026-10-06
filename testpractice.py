@@ -18,3 +18,17 @@
 # print (spaces(10,"CC..CCC..C",".CC..CC..C"))
 
 
+
+
+def wizard(owner,N,duels):
+    #who owns the wand
+    last_owner = owner
+    #numbrt of times changes
+    changes = 0
+    #check 1 single battle
+    #print(duels[0])
+    #check first character
+    """print(duels[0][0])"""
+    #check if wand changed hands
+
+wizard("A",3,["BA","CB"])
