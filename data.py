@@ -22,5 +22,14 @@
 #find number of spaces 
 #add 1 to that number to find amt of words
 
-x = str(input("Enter a Sentence:"))
-y = x.split()
+# x = str(input("Enter a Sentence:"))
+# print(x)
+# y = x.split()
+# print(y)
+# print(len(y))
+
+day_of_week = input("What day is it?")
+if day_of_week == "friday":
+    print("correct")
+else:
+    print("incorrect")

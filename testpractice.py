@@ -20,15 +20,28 @@
 
 
 
-def wizard(owner,N,duels):
-    #who owns the wand
-    last_owner = owner
-    #numbrt of times changes
-    changes = 0
-    #check 1 single battle
-    #print(duels[0])
-    #check first character
-    """print(duels[0][0])"""
-    #check if wand changed hands
+# def wizard(owner,N,duels):
+#     #who owns the wand
+#     last_owner = owner
+#     #numbrt of times changes
+#     changes = 0
+#     #check 1 single battle
+#     #print(duels[0])
+#     #check first character
+#     """print(duels[0][0])"""
+#     #check if wand changed hands
 
-wizard("A",3,["BA","CB"])
+# wizard("A",3,["BA","CB"])
+
+
+
+# def wizards(N,start,duels):
+#     owner = start
+#     changed_hands = 1
+#     for i in range(N):
+#         if duels [i][1] == owner:
+#             owner = duels [i][0]
+#         changed_hands += 1
+#     print(owner)
+
+# wizards(3,"A",["BA","CB","DA"])
