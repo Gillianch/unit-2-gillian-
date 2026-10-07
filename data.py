@@ -47,11 +47,23 @@
 #     print('cold')
 
 
-number = 5
+number = 10
 if number % 2 == 0:
     print('even')
 if number % 2 ==1:
     print('odd')
+
+
+bill = 45
+service = input("How was the service?")
+if service == "bad":
+    print (bill)
+if service == "okay":
+    print (bill * 1.15)
+if service == "good":
+    print (bill * 1.2)
+if service == "great":
+    print (bill * 1.25)
 
 
 #SAMPLE FUNCTION CALL
