@@ -28,8 +28,32 @@
 # print(y)
 # print(len(y))
 
-day_of_week = input("What day is it?")
-if day_of_week == "friday":
-    print("correct")
-else:
-    print("incorrect")
+# day_of_week = input("What day is it?")
+# if day_of_week == "Friday": 
+#     print("correct")
+# else:
+#     print("incorrect")
+
+# x = "test"
+# print(f"hello {x}")
+
+
+# temp = 68
+# if temp > 68:
+#     print('warm')
+# elif temp == 68:
+#     print('perfect')
+# else:
+#     print('cold')
+
+
+number = 5
+if number % 2 == 0:
+    print('even')
+if number % 2 ==1:
+    print('odd')
+
+
+#SAMPLE FUNCTION CALL
+#SAMPLE LOOP
+#HOW TO ACCESS INDIVIDUAL PART OF STRING
