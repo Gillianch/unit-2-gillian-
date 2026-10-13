@@ -47,12 +47,12 @@
 #     print('cold')
 
 
-number = int(input("What is your number?"))
-int 
-if number % 2 == 0:
-    print('even')
-if number % 2 == 1:
-    print('odd')
+# number = int(input("What is your number?"))
+# int 
+# if number % 2 == 0:
+#     print('even')
+# if number % 2 == 1:
+#     print('odd')
 
 
 # bill = 45
@@ -66,15 +66,10 @@ if number % 2 == 1:
 # if service == "great":
 #     print (bill * 1.25)
 
-# input = 5
-# def factors(N):
-#     for i in range(input):
-#         i < input
-#         if input % i == 0:
-#             print(i)
+x = int(input("Enter a number"))
+
+for i in range(x):
+    if x % i == 0:
+        print(i)
 
 
-
-#SAMPLE FUNCTION CALL
-#SAMPLE LOOP
-#HOW TO ACCESS INDIVIDUAL PART OF STRING
