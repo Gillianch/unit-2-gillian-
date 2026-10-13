@@ -2,6 +2,9 @@
 # y = float(3)
 # print(x,y)
 
+
+
+
 # values = [1,2.23,5,7,2,30,15]
 # print(values)
 # for i in values:
@@ -10,11 +13,19 @@
 # print (values[0])
 # print (values[6])
 
+
+
+
+
+
 # x = "this is a thing"
 # y= x.split()
 # z = y[0]
 # print(y)
 # print(z)
+
+
+
 
 
 #print("what is your sentence:")
@@ -28,14 +39,26 @@
 # print(y)
 # print(len(y))
 
+
+
+
+
 # day_of_week = input("What day is it?")
 # if day_of_week == "Friday": 
 #     print("correct")
 # else:
 #     print("incorrect")
 
+
+
+
+
 # x = "test"
 # print(f"hello {x}")
+
+
+
+
 
 
 # temp = 68
@@ -47,12 +70,18 @@
 #     print('cold')
 
 
+
+
+
 # number = int(input("What is your number?"))
 # int 
 # if number % 2 == 0:
 #     print('even')
 # if number % 2 == 1:
 #     print('odd')
+
+
+
 
 
 # bill = 45
@@ -66,10 +95,24 @@
 # if service == "great":
 #     print (bill * 1.25)
 
-x = int(input("Enter a number"))
-
-for i in range(x):
-    if x % i == 0:
-        print(i)
 
 
+
+
+# x = int(input("Enter a number"))
+
+# for i in range(1, x + 1):
+#     if x % i == 0:
+#         print(i)
+
+
+
+
+x = int(input("Give me your first value"))
+y = int(input("Give me your second value"))
+
+for i in range(1, min(x,y) + 1):
+    if x % i == 0 and y % i == 0:
+        gcf = i
+
+print(gcf)
